@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Alpointernet/alpointernets-script-hub/main/source.lua')))()
 
 local Window = OrionLib:MakeWindow({Name = "Alpointernet's Script Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "Alpointernet"})
 
