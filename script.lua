@@ -67,6 +67,18 @@ Tab:AddButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Alpointernet/some-scripts/main/Fling%20All%20People"))();  
         end    
 })
+Tab:AddButton({
+	Name = "c00lkid gui",
+	Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Alpointernet/some-scripts/main/c00lkid.txt"))();  
+        end    
+})
+Tab:AddButton({
+	Name = "FE Car",
+	Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Alpointernet/some-scripts/main/Car.txt"))();  
+        end    
+})
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -81,14 +93,25 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-	Name = "anan",
+	Name = "Nexus Hub",
 	Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Alpointernet/some-scripts/main/Nexus"))();
         end    
 })
 Tab:AddButton({
-	Name = "baban",
+	Name = "Murder Mystery 2 (Bad script, kinda works)",
 	Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Alpointernet/some-scripts/main/Fling%20All%20People"))();  
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Alpointernet/some-scripts/main/mm2lite.txt))();  
         end    
 })
+Tab:AddButton({
+	Name = "Tower of Hell",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dqvh/dqvh/main/SprinHub",true))()
+	end    
+})
+Tab:AddButton({
+	Name = "Piano Auto Play",
+	Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Alpointernet/some-scripts/main/Piano%20Auto%20Player.txt"))();  
+        end    
