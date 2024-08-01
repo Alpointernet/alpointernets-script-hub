@@ -15,33 +15,80 @@ CloseCallback = <function> - Function to execute when the window is closed.
 ]]
 
 local Tab = Window:MakeTab({
-	Name = "Tab 1",
+	Name = "Basic",
 	Icon = nil,
 	PremiumOnly = false
 })
-
---[[
-Name = <string> - The name of the tab.
-Icon = <string> - The icon of the tab.
-PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
-]]
 
 local Section = Tab:AddSection({
 	Name = "Scripts"
 })
 
---[[
-Name = <string> - The name of the section.
-]]
-
 Tab:AddButton({
-	Name = "Button!",
+	Name = "Infinite Yield",
 	Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
         end    
 })
+Tab:AddButton({
+	Name = "Anti AFK",
+	Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Alpointernet/some-scripts/main/Anti%20AFK.txt"))();
+        end    
+})
+Tab:AddButton({
+	Name = "Yeet GUI",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Alpointernet/some-scripts/main/FE%20Yeet%20Gui.txt"))();
+        end    
+})
 
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+local Tab = Window:MakeTab({
+	Name = "Fun",
+	Icon = nil,
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Scripts"
+})
+
+Tab:AddButton({
+	Name = "FE Animation GUI",
+	Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Alpointernet/some-scripts/main/FE%20Animation%20GUI.txt"))();
+        end    
+})
+Tab:AddButton({
+	Name = "Fling All",
+	Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Alpointernet/some-scripts/main/Fling%20All%20People"))();  
+        end    
+})
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+local Tab = Window:MakeTab({
+	Name = "Games",
+	Icon = nil,
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Scripts"
+})
+
+Tab:AddButton({
+	Name = "anan",
+	Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Alpointernet/some-scripts/main/FE%20Animation%20GUI.txt"))();
+        end    
+})
+Tab:AddButton({
+	Name = "baban",
+	Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Alpointernet/some-scripts/main/Fling%20All%20People"))();  
+        end    
+})
