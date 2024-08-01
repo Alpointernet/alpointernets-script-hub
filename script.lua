@@ -16,7 +16,7 @@ CloseCallback = <function> - Function to execute when the window is closed.
 
 local Tab = Window:MakeTab({
 	Name = "Basic",
-	Icon = nil,
+	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
@@ -47,7 +47,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Alpointernet/some-scr
 
 local Tab = Window:MakeTab({
 	Name = "Fun",
-	Icon = nil,
+	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
@@ -72,7 +72,7 @@ Tab:AddButton({
 
 local Tab = Window:MakeTab({
 	Name = "Games",
-	Icon = nil,
+	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
