@@ -93,20 +93,9 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-	Name = "Nexus Hub",
+	Name = "Button!",
 	Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Alpointernet/some-scripts/main/Nexus"))();
-        end    
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Alpointernet/some-scripts/main/Nexus"))();  
+  	end    
 })
-Tab:AddButton({
-	Name = "Murder Mystery 2 (Bad script, kinda works)",
-	Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Alpointernet/some-scripts/main/mm2lite.txt))();  
-        end    
-})
-Tab:AddButton({
-	Name = "Tower of Hell",
-	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/dqvh/dqvh/main/SprinHub",true))()
-	end    
-})
+
