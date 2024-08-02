@@ -110,8 +110,3 @@ Tab:AddButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dqvh/dqvh/main/SprinHub",true))()
 	end    
 })
-Tab:AddButton({
-	Name = "Piano Auto Play",
-	Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Alpointernet/some-scripts/main/Piano%20Auto%20Player.txt"))();  
-        end    
