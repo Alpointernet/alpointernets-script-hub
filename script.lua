@@ -93,9 +93,14 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-	Name = "Button!",
+	Name = "Nexus Hub",
 	Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Alpointernet/some-scripts/main/Nexus"))();  
   	end    
 })
-
+Tab:AddButton({
+	Name = "Arsenal",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/rvllah/scripts/main/Arsenal'))()
+	end    
+})
